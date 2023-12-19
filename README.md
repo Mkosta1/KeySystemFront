@@ -2,6 +2,8 @@ The backend connection is in file BaseService.ts. To get the application running
 Services has some functions that arent being used, before making new check if it is already made or if going over them, remove please not used functions :smile:
 There is also dockerFile to upload the frontend as docker conteiner to Asure or sth else for LIVE deployment.
 
+To register new user, the link is http://localhost:3000/register
+
 # To run the application, type in the command:
 ### `npm start`
 
