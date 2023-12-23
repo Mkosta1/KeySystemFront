@@ -1,3 +1,8 @@
+CURRENT PROGRESS -- The site key edit is not finished. The part when editing the key and changing the site to new one or adding/removing existing sites is not working/not finished.
+Everything else is currently working as should. All the sites are seeded in or have to be added manualy in database.
+
+TODO -- add better user adding system. Should add at least one role that has access to the register site. Can be done by adding [Auth] to Entity Register and adding role to the seeded ADMIN account.
+
 The backend connection is in file BaseService.ts. To get the application running, please check if the backend is running, otherwise there will be no connection made and no data transfared.
 Services has some functions that arent being used, before making new check if it is already made or if going over them, remove please not used functions :smile:
 There is also dockerFile to upload the frontend as docker conteiner to Asure or sth else for LIVE deployment.
